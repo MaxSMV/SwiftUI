@@ -14,6 +14,7 @@
 		C78FE24C2AF2808D002E1B5D /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78FE24B2AF2808D002E1B5D /* CardView.swift */; };
 		C78FE24F2AF28798002E1B5D /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78FE24E2AF28798002E1B5D /* CustomBackgroundView.swift */; };
 		C78FE2522AF28C24002E1B5D /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78FE2512AF28C23002E1B5D /* ColorExtension.swift */; };
+		C78FE2542AF3D42E002E1B5D /* CustomButtoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78FE2532AF3D42E002E1B5D /* CustomButtoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		C78FE24B2AF2808D002E1B5D /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		C78FE24E2AF28798002E1B5D /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
 		C78FE2512AF28C23002E1B5D /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		C78FE2532AF3D42E002E1B5D /* CustomButtoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +59,9 @@
 		C78E128C2AF2783400139629 /* Hike */ = {
 			isa = PBXGroup;
 			children = (
-				C78FE2502AF28BCE002E1B5D /* Utility */,
-				C78E128D2AF2783400139629 /* HikeApp.swift */,
-				C78E128F2AF2783400139629 /* ContentView.swift */,
-				C78E12912AF2783600139629 /* Assets.xcassets */,
-				C78E12932AF2783600139629 /* Preview Content */,
 				C78FE24D2AF286E3002E1B5D /* Component */,
+				C78FE2502AF28BCE002E1B5D /* Utility */,
+				C78E12932AF2783600139629 /* Preview Content */,
 			);
 			path = Hike;
 			sourceTree = "<group>";
@@ -70,6 +69,9 @@
 		C78E12932AF2783600139629 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				C78E12912AF2783600139629 /* Assets.xcassets */,
+				C78E128F2AF2783400139629 /* ContentView.swift */,
+				C78E128D2AF2783400139629 /* HikeApp.swift */,
 				C78E12942AF2783600139629 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -80,6 +82,7 @@
 			children = (
 				C78FE24B2AF2808D002E1B5D /* CardView.swift */,
 				C78FE24E2AF28798002E1B5D /* CustomBackgroundView.swift */,
+				C78FE2532AF3D42E002E1B5D /* CustomButtoView.swift */,
 			);
 			name = Component;
 			path = ..;
@@ -163,6 +166,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C78FE2542AF3D42E002E1B5D /* CustomButtoView.swift in Sources */,
 				C78E12902AF2783400139629 /* ContentView.swift in Sources */,
 				C78FE24C2AF2808D002E1B5D /* CardView.swift in Sources */,
 				C78E128E2AF2783400139629 /* HikeApp.swift in Sources */,
