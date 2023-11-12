@@ -15,6 +15,7 @@
 		C78FE24F2AF28798002E1B5D /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78FE24E2AF28798002E1B5D /* CustomBackgroundView.swift */; };
 		C78FE2522AF28C24002E1B5D /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78FE2512AF28C23002E1B5D /* ColorExtension.swift */; };
 		C78FE2542AF3D42E002E1B5D /* CustomButtoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78FE2532AF3D42E002E1B5D /* CustomButtoView.swift */; };
+		C7FCE8ED2B01460C000A4F3E /* GradientButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FCE8EC2B01460C000A4F3E /* GradientButtonStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		C78FE24E2AF28798002E1B5D /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
 		C78FE2512AF28C23002E1B5D /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		C78FE2532AF3D42E002E1B5D /* CustomButtoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtoView.swift; sourceTree = "<group>"; };
+		C7FCE8EC2B01460C000A4F3E /* GradientButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButtonStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				C78FE2512AF28C23002E1B5D /* ColorExtension.swift */,
+				C7FCE8EC2B01460C000A4F3E /* GradientButtonStyle.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 				C78E12902AF2783400139629 /* ContentView.swift in Sources */,
 				C78FE24C2AF2808D002E1B5D /* CardView.swift in Sources */,
 				C78E128E2AF2783400139629 /* HikeApp.swift in Sources */,
+				C7FCE8ED2B01460C000A4F3E /* GradientButtonStyle.swift in Sources */,
 				C78FE24F2AF28798002E1B5D /* CustomBackgroundView.swift in Sources */,
 				C78FE2522AF28C24002E1B5D /* ColorExtension.swift in Sources */,
 			);
